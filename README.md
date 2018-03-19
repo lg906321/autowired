@@ -1,5 +1,5 @@
 # autowired
-Spring 4.2.8 lombok 的 @AllArgsConstructor 需要写成 @AllArgsConstructor(onConstructor = @_({@Autowired}))
+    Spring 4.2.8 lombok 的 @AllArgsConstructor 需要写成 @AllArgsConstructor(onConstructor = @_({@Autowired}))
     4.3.14.RELEASE 直接写 @AllArgsConstructor 即可
     核心容器额外提供了更丰富的元数据来改进编程。
     默认 Java 8 的方法检测为 bean 属性的 getter/setter 方法。 
